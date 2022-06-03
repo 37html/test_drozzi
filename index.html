@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дрожжи</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="header__logo-link" href="#">
+          <img class="header__logo" src="images/logo.svg" alt="">
+        </a>
+        <nav class="header__menu header__menu-active">
+          <a class="header__menu-link" href="#portfolio">
+            Портфолио
+          </a>
+          <a class="header__menu-link" href="#about">
+            О компании
+          </a>
+          <a class="header__menu-link" href="#contacts">
+            Контакты
+          </a>
+          <button class="header__menu-close-btn">
+            <img class="header__menu-close-img" src="images/icons/close.png" alt="">
+          </button>
+        </nav>
+        <a class="header__link" href="#request">
+          Оставить заявку
+        </a>
+        <button class="header__burger-menu-btn">
+          <img class="header__burger-menu-img" src="images/icons/burger.png" alt="" >
+        </button>
+      </div>
+      <p class="header__info-text">
+          Маркетинговое агентство. С нами вы растете как на дрожжах
+      </p>
+
+      <div class="header__arrow-box">
+        <img class="header__arrow-img" src="images/icons/arrow-down.svg" alt="" />
+      </div>
+
+      <div class="header__info-links">
+        <div class="header__info-link-whatsapp-box">
+          <a class="header__info-link-whatsapp" href="#">
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4858 3.00686C16.5633 2.08269 15.4657 1.34989 14.2566 0.850919C13.0475 0.351949 11.751 0.096727 10.442 0.100038C4.95342 0.100038 0.485315 4.54582 0.483097 10.0106C0.483097 11.7571 0.941221 13.4617 1.81199 14.9653L0.399902 20.1L5.67887 18.7211C7.13909 19.5122 8.77504 19.9271 10.4376 19.9278H10.442C15.9295 19.9278 20.3976 15.482 20.3999 10.0172C20.4036 8.71504 20.148 7.42503 19.6479 6.22176C19.1477 5.01848 18.4129 3.92579 17.4858 3.00686ZM13.2817 11.2791C13.5102 11.3619 14.7326 11.9603 14.9822 12.085C15.0304 12.1091 15.0756 12.1309 15.1176 12.1511C15.2909 12.2347 15.4092 12.2918 15.4592 12.3754C15.5213 12.4791 15.5213 12.9748 15.3139 13.5533C15.1065 14.1318 14.1126 14.6595 13.6345 14.7302C13.2052 14.7931 12.6628 14.8207 12.0671 14.6319C11.7066 14.5171 11.2429 14.3648 10.6484 14.1097C8.31345 13.1058 6.73579 10.8526 6.44032 10.4306C6.41995 10.4016 6.40568 10.3812 6.39767 10.3705L6.39442 10.3662C6.25871 10.1854 5.38159 9.01684 5.38159 7.80813C5.38159 6.66761 5.94399 6.07038 6.20348 5.79482C6.22129 5.77591 6.23768 5.75851 6.25236 5.74255C6.33575 5.64826 6.43781 5.57213 6.55215 5.51894C6.66649 5.46575 6.79063 5.43664 6.9168 5.43344C7.07547 5.43287 7.23414 5.43581 7.39268 5.44227C7.41016 5.44303 7.42833 5.44286 7.44709 5.44269C7.59258 5.44137 7.7739 5.43972 7.95174 5.8651C8.0213 6.03133 8.12355 6.27887 8.23107 6.53921C8.44419 7.0552 8.67806 7.62144 8.71935 7.70435C8.78258 7.828 8.82362 7.97262 8.74043 8.13822C8.72781 8.16334 8.71616 8.18701 8.70505 8.20959C8.64287 8.33593 8.59735 8.42843 8.49195 8.55112C8.45054 8.59932 8.40778 8.65133 8.36501 8.70334C8.27947 8.80736 8.19393 8.91139 8.11924 8.98499C7.9939 9.10863 7.86411 9.24222 8.00943 9.49062C8.15474 9.73902 8.6539 10.5493 9.39378 11.2062C10.1894 11.9122 10.881 12.2106 11.231 12.3616C11.2992 12.391 11.3544 12.4148 11.3949 12.435C11.6434 12.5586 11.7887 12.5387 11.934 12.3731C12.0793 12.2075 12.5563 11.65 12.7227 11.4027C12.8891 11.1554 13.0543 11.1963 13.2817 11.2791Z" fill="#8D959D"/>
+            </svg>
+            <p class="header__info-link-whatsapp-name">
+              whatsapp
+            </p>
+          </a>
+        </div>
+        <div class="header__info-link-telegram-box">
+          <a class="header__info-link-telegram" href="#">
+            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.22615 7.90355L13.1395 2.85766C14.3155 2.33205 18.3036 0.650082 18.3036 0.650082C18.3036 0.650082 20.1443 -0.0857776 19.9909 1.70131C19.9398 2.43717 19.5307 5.01267 19.1217 7.79843L17.8435 16.0506C17.8435 16.0506 17.7412 17.2595 16.872 17.4697C16.0028 17.68 14.5711 16.7339 14.3155 16.5236C14.111 16.3659 10.4807 14.0007 9.15133 12.8443C8.79341 12.529 8.38437 11.8982 9.20246 11.1624C11.0431 9.42783 13.2417 7.27281 14.5711 5.90622C15.1847 5.27548 15.7982 3.80376 13.2417 5.59085L6.03238 10.5842C6.03238 10.5842 5.2143 11.1098 3.6804 10.6367C2.14649 10.1637 0.356936 9.53295 0.356936 9.53295C0.356936 9.53295 -0.870188 8.74453 1.22615 7.90355Z" fill="#8D959D"/>
+          </svg>
+          <p class="header__info-link-telegram-name">
+            telegram
+          </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio__inner">
+        <div class="portfolio__title-box">
+          <h2 class="portfolio__title title">
+            Портфолио
+          </h2>
+          <a class="portfolio__title-link" href="#">
+            смотреть все
+          </a>
+        </div>
+        <div class="portfolio__items">
+          <a class="portfolio__item-link" href="#">
+            <div class="portfolio__item-link-img-box">
+              <img class="portfolio__item-link-img" src="images/images-1.jpg" alt="">
+              <span class="portfolio__item-link-img-text">МАРКЕТИНГ</span>
+            </div>
+            <h3 class="portfolio__item-link-title">
+              «Натали» — Ивановский трикотаж оптом
+            </h3>
+            <p class="portfolio__item-link-text">
+              Редизайн сайта, поддержка сайта
+            </p>
+          </a>
+          <a class="portfolio__item-link" href="#">
+            <div class="portfolio__item-link-img-box">
+              <img class="portfolio__item-link-img" src="images/images-2.jpg" alt="">
+              <span class="portfolio__item-link-img-text">ВЕБ РАЗРАБОТКА</span>
+            </div>
+            <h3 class="portfolio__item-link-title">
+              Podium — эротический массаж
+            </h3>
+            <p class="portfolio__item-link-text">
+              Разработка, редизайн
+            </p>
+          </a>
+          <a class="portfolio__item-link" href="#">
+            <div class="portfolio__item-link-img-box">
+              <img class="portfolio__item-link-img" src="images/images-3.jpg" alt="">
+              <span class="portfolio__item-link-img-text">ВЕДЕНИЕ РЕКЛАМНОЙ КОМПАНИИ</span>
+            </div>
+            <h3 class="portfolio__item-link-title">
+              Аудит отдела маркетинга и продаж для Название бренда длинное название...
+            </h3>
+            <p class="portfolio__item-link-text">
+              Аудит, маркетинг сюда кратко теги
+            </p>
+          </a>
+          <a class="portfolio__item-link" href="#">
+            <div class="portfolio__item-link-img-box">
+              <img class="portfolio__item-link-img" src="images/images-4.jpg" alt="">
+              <span class="portfolio__item-link-img-text">ВЕДЕНИЕ ГРУПП В СОЦ СЕТЯХ</span>
+            </div>
+            <h3 class="portfolio__item-link-title">
+              Аудит отдела маркетинга и продаж для Название бренда
+            </h3>
+            <p class="portfolio__item-link-text">
+              Аудит, маркетинг сюда кратко теги
+            </p>
+          </a>
+          <a class="portfolio__item-link" href="#">
+            <div class="portfolio__item-link-img-box">
+              <img class="portfolio__item-link-img" src="images/images-5.jpg" alt="">
+              <span class="portfolio__item-link-img-text">ОПТИМИЗАЦИЯ SEO САЙТА</span>
+            </div>
+            <h3 class="portfolio__item-link-title">
+              Аудит отдела маркетинга и продаж для Название бренда
+            </h3>
+            <p class="portfolio__item-link-text">
+              Аудит, маркетинг сюда кратко теги
+            </p>
+          </a>
+          <a class="portfolio__item-link" href="#">
+            <div class="portfolio__item-link-img-box">
+              <img class="portfolio__item-link-img" src="images/images-6.jpg" alt="">
+              <span class="portfolio__item-link-img-text">СОЗДАНИЕ РЕКЛАМНОЙ КОМПАНИИ</span>
+            </div>
+            <h3 class="portfolio__item-link-title">
+              Аудит отдела маркетинга и продаж для Название бренда 
+            </h3>
+            <p class="portfolio__item-link-text">
+              Аудит, маркетинг сюда кратко теги
+            </p>
+          </a>
+        </div>
+        <div class="portfolio__all-links-box">
+          <a class="portfolio__all-links" href="#" >
+            Все кейсы
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <h2 class="about__title title">
+          О компании
+        </h2>
+        <div class="about__numbers-items">
+          <div class="about__numbers-item">
+            <span>5</span> отделов
+          </div>
+          <div class="about__numbers-item">
+            <span>5</span> маркетологов
+          </div>
+          <div class="about__numbers-item">
+            <span>3</span> дизайнера
+          </div>
+          <div class="about__numbers-item">
+            <span>3</span> копирайтера
+          </div>
+          <div class="about__numbers-item">
+            <span>7</span> разработчиков
+          </div>
+        </div>
+        <div class="about__info-box">
+          <div class="about__info">
+            <p class="about__info-text">
+              Мы — команда специалистов с опытом, энтузиазмом и лёгким недосыпом. Маркетинговое агентство «Дрожжи» было основано в 2015 году, как компания, где можно получить комплексное интернет- и oффлайн-продвижение. На сегодняшний день мы не зависим ни от ниши, ни от географии, ни от специфики продукта. В портфолио компании сотни успешных кейсов, способных помочь вам в реализации своей идеи.
+            </p>
+            <div class="about__info-numb-items">
+              <div class="about__info-numb-item">
+                <div class="about__info-numb">
+                  1000+
+                </div>
+                <div class="about__info-numb-text">
+                  реализованных проектов
+                </div>
+              </div>
+              <div class="about__info-numb-item">
+                <div class="about__info-numb">
+                  92
+                </div>
+                <div class="about__info-numb-text">
+                  клиента доверили нам свои проекты
+                </div>
+              </div>
+              <div class="about__info-numb-item">
+                <div class="about__info-numb">
+                  5+
+                </div>
+                <div class="about__info-numb-text">
+                  лет успешной работы
+                </div>
+              </div>
+            </div>
+            <button class="about__btn">
+              подробнее
+            </button>
+          </div>
+          <div class="about__img-box">
+            <img class="about__img" src="images/about-img.jpg" alt="" onclick="window.location.href='#popup'">
+            <p class="about__img-text">
+              Команда агентства «Дрожжи»
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="request" id="request">
+    <div class="container">
+      <div class="request__inner">
+        <h2 class="request__title title">
+          Оставьте заявку
+        </h2>
+        <div class="request__info-box">
+          <div class="request__info">
+            <img class="request__info-img" src="images/form-photo.jpg" alt="" >
+            <div class="request__info-name">
+              Юлия Дижа
+            </div>
+            <div class="request__info-text">
+              Поможет запустить ваш проект
+            </div>
+            <form class="request__form request__form-clone">
+              <input class="request__form-input" type="text" placeholder="Ваше имя *" data-validate>
+              <input class="request__form-input" type="text" placeholder="Телефон *" data-validate>
+              <textarea class="request__form-textarea" placeholder="Краткое описание задачи *"></textarea data-validate>
+              <button class="request__form-btn" type="submit">
+                Отправить
+              </button>
+            </form>
+            <div class="request__info-documents">
+              <div class="request__info-documents-title">
+                Скачать брифинги на:
+              </div>
+              <a class="request__info-documents-logo" download href="#">
+                разработку логотипа
+              </a>
+              <a class="request__info-documents-disign" download href="#"> 
+                разработку сайта
+              </a>
+              <a class="request__info-documents-landing" download href="#">
+                разработку лендинга
+              </a>
+            </div>
+          </div>
+          <form class="request__form">
+            <input class="request__form-input" type="text" placeholder="Ваше имя *" data-validate>
+            <input class="request__form-input" type="text" placeholder="Телефон или мессенджер *" data-validate>
+            <textarea class="request__form-textarea" placeholder="Краткое описание задачи *" data-validate></textarea>
+            <button class="request__form-btn" type="submit">
+              Отправить
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__inner-links">
+          <a class="footer__inner-link" href="#">
+            2015-2021 © Дрожжи™
+          </a>
+          <a class="footer__inner-link" href="#">
+            ООО «РВБ-Маркетинг»
+          </a>
+          <a class="footer__inner-link" href="#">
+            Политика конфиденциальности
+          </a>
+        </div>
+        <div class="footer__inner-logo-box">
+          <a class="footer__inner-logo-link" href="#">
+            <img src="images/footer-logo.svg" alt="" class="footer__inner-logo-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="popup" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="popup__close" href="#">
+          Закрыть просмотр
+        </a>
+        <img class="popup__img" src="images/about-img.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
+</body>
+</html>
